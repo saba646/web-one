@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: brown;
+    font-size: 8vw;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+@media (max-width:600px) {
+    body{
+        height: 100%;
+        width: 50%;
+    }
+    h1{
+        font-size: 6vw;
+    }
+    
+}
